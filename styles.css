@@ -6,7 +6,35 @@
 html { height: 100%; }
 
 body {
-	color: blue; /*To test linking*/
+	color: white;
+	background-color: #062B57;
+	height: 100%;
+	overflow-x: hidden;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+	font-weight: 300;
+}
+
+p {
+	font-size: 1.2em;
+	line-height: 1.3em;
+	margin: .25em 0 .5em;
+}
+
+a {
+	text-decoration: none;
+	color: #a4c9f2;
+}
+
+a:hover {
+	color: white;
+}
+
+img {
+	width: 100%;
 }
 
 @media only screen {
